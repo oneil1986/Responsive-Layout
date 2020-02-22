@@ -1,0 +1,91 @@
+/* || Base style */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: normal 1em/1.5 "helvetica neue", helvetica, arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.main-header,
+.contact,
+.main-footer {
+  background-color: #fafafa;
+}
+
+p {
+  color: #6d6c6a;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:focus {
+}
+
+a:active {
+}
+
+/* || Base Layout */
+
+.project-wrapper {
+  padding: 1.5em;
+}
+
+.main-header,
+.contact,
+.main-footer {
+  padding: 1em 0;
+}
+
+.main-nav {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 90%;
+  font-weight: bold;
+}
+
+.main-nav li {
+  background-color: #fff;
+  padding: 1em;
+  margin-top: 5px;
+}
+
+.main-nav li a {
+  display: block;
+}
+
+.intro img {
+  width: 55%;
+  margin-top: 50px;
+}
+
+.intro p {
+}
+
+img {
+  max-width: 100%;
+}
+
+.footer-nav .desktop {
+  display: none;
+}
