@@ -24,32 +24,14 @@ body {
 
 p {
   color: #6d6c6a;
+  font-size: 1.5em;
 }
 
 a {
   text-decoration: none;
 }
 
-a:link {
-}
-
-a:visited {
-}
-
-a:hover {
-}
-
-a:focus {
-}
-
-a:active {
-}
-
 /* || Base Layout */
-
-.project-wrapper {
-  padding: 1.5em;
-}
 
 .main-header,
 .contact,
@@ -79,13 +61,76 @@ a:active {
   margin-top: 50px;
 }
 
+.intro {
+  padding: 0 1.5em;
+}
+
 .intro p {
+  padding-bottom: 24px;
+}
+
+main h2 {
+  margin-top: 55px;
+}
+
+.project-wrapper {
+  padding: 1.5em;
+  margin: 30px 0;
 }
 
 img {
   max-width: 100%;
 }
 
+.contact h2 {
+  margin: 60px 0 45px;
+}
+
+.contact section {
+  padding: 0 1.25em;
+}
+
+.main-footer {
+  border-top: 1px solid lightgray;
+}
+
+.footer-nav {
+  float: right;
+  margin-top: 16px;
+  margin-right: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.main-footer h3 {
+  float: left;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
 .footer-nav .desktop {
   display: none;
+}
+
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  a:link {
+  }
+
+  a:visited {
+  }
+
+  a:hover {
+  }
+
+  a:focus {
+  }
+
+  a:active {
+  }
 }
