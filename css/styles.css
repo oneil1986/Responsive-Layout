@@ -118,7 +118,11 @@ img {
   clear: both;
 }
 
+/* || Media queries */
+
 @media (min-width: 768px) {
+  /* || Styles for the link state */
+
   a:link {
   }
 
@@ -126,11 +130,90 @@ img {
   }
 
   a:hover {
+    border-bottom: 1px solid #000;
+    background-color: #fff;
   }
 
   a:focus {
   }
 
   a:active {
+  }
+
+  /* || Styling header section */
+
+  .main-nav li {
+    display: inline-block;
+    background-color: #fafafa;
+    margin-right: 16px;
+    padding: 13px;
+  }
+
+  .intro img {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .intro p {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding: 0 1em;
+    /* padding: 1em; */
+  }
+
+  .intro img,
+  .intro p {
+    margin: 40px 0;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* || project layout */
+
+  .project-marketing,
+  .project-search {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  .project-travel,
+  .project-map {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  .project-photo,
+  .project-calculator {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  .contact section {
+    margin-bottom: 55px;
+  }
+
+  .contact p {
+    font-size: 1.5em;
+    padding: 0 40px;
+    margin-bottom: ;
+  }
+
+  .footer-nav .phone {
+    display: none;
+  }
+
+  .footer-nav .desktop {
+    display: inline-block;
+    padding: 0 16px;
+    font-weight: bold;
+    font-size: 14px;
   }
 }
