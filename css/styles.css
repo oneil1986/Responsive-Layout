@@ -69,8 +69,9 @@ a {
   padding-bottom: 24px;
 }
 
-main h2 {
+main .portfolio {
   margin-top: 55px;
+  text-transform: uppercase;
 }
 
 .project-wrapper {
@@ -88,6 +89,16 @@ img {
 
 .contact section {
   padding: 0 1.25em;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 10px 0;
+  background-color: lightgray;
 }
 /* 
 .main-footer {
@@ -135,9 +146,14 @@ img {
   }
 
   a:focus {
+    border-bottom: 2px solid #000;
+    background-color: royalblue;
+    color: white;
   }
 
   a:active {
+    border-bottom: 2px solid #000;
+    background-color: green;
   }
 
   /* || Styling header section */
@@ -179,22 +195,29 @@ img {
   .project-search {
     width: 50%;
     float: left;
-    padding: 0 5px;
+    padding: 0 7px;
   }
 
   .project-travel,
   .project-map {
     width: 50%;
     float: left;
-    padding: 0 5px;
+    padding: 0 7px;
   }
 
   .project-photo,
   .project-calculator {
     width: 50%;
     float: left;
-    padding: 0 5px;
+    padding: 0 7px;
   }
+
+  .project-wrapper {
+    max-width: 807px;
+    margin: 0 auto;
+  }
+
+  /* || Styling the contact section */
 
   .contact section {
     margin-bottom: 55px;
@@ -202,7 +225,9 @@ img {
 
   .contact p {
     font-size: 1.5em;
-    padding: 0 40px;
+    padding: 10px 0;
+    max-width: 650px;
+    margin: 0 auto;
     margin-bottom: ;
   }
 
@@ -218,6 +243,8 @@ img {
   }
 }
 
+/* || Media 1024px */
+
 @media (min-width: 1024px) {
   .site-name {
     float: left;
@@ -228,6 +255,10 @@ img {
     width: auto;
     margin-top: 20px;
     margin-right: 14px;
+  }
+
+  .intro p {
+    font-size: 1.34em;
   }
 
   .project-marketing,
@@ -244,13 +275,8 @@ img {
     float: left;
   }
 
-  .wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  hr {
-    margin: 10px 0;
-    background-color: lightgray;
+  .project-wrapper {
+    min-width: 1024px;
+    max-width: 1424px;
   }
 }
