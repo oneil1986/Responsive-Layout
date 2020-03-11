@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
     <title>Responsive Layout</title>
   </head>
   <body>
     <!-- Header -->
     <header class="main-header">
       <div id="home" class="group">
-        <h1 class="site-name">Student Name</h1>
+        <h1 class="site-name">O'Ryan Alexander</h1>
         <!--Navigation-->
         <nav>
           <ul class="main-nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
@@ -88,6 +97,16 @@
           </div>
         </div>
       </section>
+
+      <!-- Skills -->
+      <div class="skills" id="skills">
+        <section>
+          <h3>Language I speak:</h3>
+          <img class="html-icon" src="images/html.png" alt="html Icon" />
+          <img class="css-icon" src="images/css.png" alt="css Icon" />
+        </section>
+      </div>
+
       <!--Contact-->
       <div id="contact" class="contact">
         <section>
@@ -96,8 +115,10 @@
             If you're interested in chatting or want more information about what
             I've been working on, I'd love to hear from you!
           </p>
-          <p>Phone <a href="tel:14169377227">+1 (416) 937-7227</a></p>
-          <p>
+          <p class="phone">
+            Phone <a href="tel:14169377227">+1 (416) 937-7227</a>
+          </p>
+          <p class="email">
             Email
             <a href="mailto:oryanalexander1@gmail.com"
               >oryanalexander1@gmail.com</a
@@ -111,13 +132,14 @@
     <footer class="main-footer group">
       <div class="wrapper">
         <hr />
-        <h3>Student Name</h3>
+        <h3>O'Ryan Alexander</h3>
         <!--Footer Nav-->
         <nav>
           <ul class="footer-nav">
             <li class="phone"><a href="#top">Back to top</a></li>
             <li class="desktop"><a href="#home">Home</a></li>
             <li class="desktop"><a href="#portfolio">Portfolio</a></li>
+            <li class="desktop"><a href="#skills">Skills</a></li>
             <li class="desktop"><a href="#contact">Contact</a></li>
           </ul>
         </nav>

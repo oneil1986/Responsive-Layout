@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font: normal 1em/1.5 "helvetica neue", helvetica, arial, sans-serif;
+  font: normal 1em/1.5 "Montserrat", helvetica, arial, sans-serif;
   text-align: center;
   margin: 0;
 }
@@ -20,6 +20,10 @@ body {
 .contact,
 .main-footer {
   background-color: #fafafa;
+}
+
+h1 {
+  font-family: "Patrick Hand", cursive;
 }
 
 p {
@@ -57,7 +61,6 @@ a {
 }
 
 .intro img {
-  width: 55%;
   margin-top: 50px;
 }
 
@@ -91,6 +94,25 @@ img {
   padding: 0 1.25em;
 }
 
+.email,
+.phone {
+  font-size: 1rem;
+}
+
+.skills section {
+  padding: 3em;
+}
+
+.skills {
+  background: linear-gradient(to left, #faeafa, transparent),
+    linear-gradient(to right, #fbfbb2, transparent);
+}
+
+.css-icon,
+.html-icon {
+  padding: 30px;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -100,15 +122,10 @@ hr {
   margin: 10px 0;
   background-color: lightgray;
 }
-/* 
-.main-footer {
-  border-top: 1px solid lightgray;
-} */
 
 .footer-nav {
   float: right;
   margin-top: 16px;
-  /* margin-right: 16px; */
   text-transform: uppercase;
   padding: 5px;
 }
@@ -116,7 +133,6 @@ hr {
 .main-footer h3 {
   float: left;
   margin-top: 16px;
-  /* margin-left: 16px; */
 }
 
 .footer-nav .desktop {
@@ -135,9 +151,11 @@ hr {
   /* || Styles for the link state */
 
   a:link {
+    color: gray;
   }
 
   a:visited {
+    color: blue;
   }
 
   a:hover {
@@ -177,7 +195,6 @@ hr {
     width: 60%;
     text-align: left;
     padding: 0 1em;
-    /* padding: 1em; */
   }
 
   .intro img,
